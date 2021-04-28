@@ -1,4 +1,5 @@
-@extends('layouts.app')
+@extends('adminlte::page')
+@section('title', 'Welcome')
 
 @section('content')
 <div class="container">
@@ -20,4 +21,4 @@
         </div>
     </div>
 </div>
-@endsection
+@stop
