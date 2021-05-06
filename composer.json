@@ -9,7 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5|^8.0",
+        "balping/laravel-hashslug": "^2.2",
         "fideloper/proxy": "^4.4",
+        "hashids/hashids": "^4.1",
         "jeroennoten/laravel-adminlte": "^3.5",
         "laravel/framework": "^6.20",
         "laravel/tinker": "^2.5"

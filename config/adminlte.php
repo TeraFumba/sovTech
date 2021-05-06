@@ -224,39 +224,49 @@ return [
     */
 
     'menu' => [
-        [
-            'text' => 'search',
-            'search' => true,
-            'topnav' => true,
-        ],
+        // [
+        //     'text' => 'login',
+        //     'topnav' => true,
+        //     'url'=> 'login',
+        //     'label'       => 'login',
+        //     'label_color' => 'success',
+        // ],
+        // [
+        //     'text' => 'search',
+        //     'search' => true,
+        //     'topnav' => true,
+        // ],
         [
             'text' => 'blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
-        [
-            'text'        => 'Home page',
-            'url'         => 'home',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            // 'label_color' => 'success',
-        ],
+        // [
+        //     'text'        => 'Home page',
+        //     'url'         => 'home',
+        //     'icon'        => 'far fa-fw fa-file',
+        //     'label'       => 4,
+        //     // 'label_color' => 'success',
+        // ],
         ['header' => 'Pages'],
         [
-            'text' => 'About us',
-            'url'  => 'about-us',
-            'icon' => 'fas fa-fw fa-user',
+            'text' => 'Posts',
+            'url'  => '/',
+            'icon' => 'fas fa-fw fa-file-alt',
         ],
+        
         [
-            'text' => 'Events',
-            'url'  => 'events',
-            'icon' => 'fas fa-fw fa-calendar',
+            'text' => 'Create Post',
+            'url'  => 'post-create',
+            'icon' => 'fas fa-fw fa-save',
+            'auth' => true
         ],
-        [
-            'text' => 'Contact',
-            'url'  => 'contact',
-            'icon' => 'fas fa-fw fa-phone',
-        ],
+ 
+        // [
+        //     'text' => 'Contact',
+        //     'url'  => 'contact',
+        //     'icon' => 'fas fa-fw fa-phone',
+        // ],
         // [
         //     'text'    => 'multilevel',
         //     'icon'    => 'fas fa-fw fa-share',
