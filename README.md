@@ -76,3 +76,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## System Requirements
+
+- PHP > 7.4
+- PHP Extensions: PDO, Bcmath, Mcrypt
+- Node.js > 10.24
+- Composer > 1.0.0
+- Laravel > 6.x
+- MySql > 15.1
+- Apache > 2.4
+
+## Installation
+
+- $ git clone git@github.com:TeraFumba/sovTech.git
+- configure .env file
+- $ composer install --prefer-dist
+- $ npm install
+- $ php artisan key:generate
+- $ php artisan migrate --seed
