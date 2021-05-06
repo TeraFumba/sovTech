@@ -19,7 +19,7 @@ class UsersTableSeeder extends Seeder
             [
                 'name' => 'Thembinkosi Fumba',
                 'email' => 'terafumba@sovtech.co.za',
-                'password' => Hash::make('developer'),
+                'password' => Hash::make('fumba'),
                 'email_verified_at' => Carbon\Carbon::now()
             ]
         );
@@ -31,7 +31,7 @@ class UsersTableSeeder extends Seeder
             [
                 'name' => 'john Doe',
                 'email' => 'john@sovtech.co.za',
-                'password' => Hash::make('sovtech'),
+                'password' => Hash::make('developer'),
                 'email_verified_at' => Carbon\Carbon::now()
             ]
         );
